@@ -12,6 +12,8 @@
 		6A2B798A22BA9830002CA6D9 /* PlaylistCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B798822BA9830002CA6D9 /* PlaylistCoreData.xcdatamodeld */; };
 		6A2B798C22BA9836002CA6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B798B22BA9836002CA6D9 /* Assets.xcassets */; };
 		6A2B798F22BA9836002CA6D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B798D22BA9836002CA6D9 /* LaunchScreen.storyboard */; };
+		6A2B799A22BA9D5B002CA6D9 /* PlaylistListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B799922BA9D5B002CA6D9 /* PlaylistListTableViewController.swift */; };
+		6A2B799C22BA9E74002CA6D9 /* SongListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B799B22BA9E74002CA6D9 /* SongListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6A2B798B22BA9836002CA6D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A2B798E22BA9836002CA6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A2B799022BA9836002CA6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A2B799922BA9D5B002CA6D9 /* PlaylistListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistListTableViewController.swift; sourceTree = "<group>"; };
+		6A2B799B22BA9E74002CA6D9 /* SongListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				6A2B799722BA98CB002CA6D9 /* Views */,
 				6A2B799822BA98D8002CA6D9 /* Resources */,
 				6A2B799622BA98B7002CA6D9 /* Model */,
+				6A2B799922BA9D5B002CA6D9 /* PlaylistListTableViewController.swift */,
+				6A2B799B22BA9E74002CA6D9 /* SongListTableViewController.swift */,
 			);
 			path = PlaylistCoreData;
 			sourceTree = "<group>";
@@ -159,7 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2B799A22BA9D5B002CA6D9 /* PlaylistListTableViewController.swift in Sources */,
 				6A2B798222BA9830002CA6D9 /* AppDelegate.swift in Sources */,
+				6A2B799C22BA9E74002CA6D9 /* SongListTableViewController.swift in Sources */,
 				6A2B798A22BA9830002CA6D9 /* PlaylistCoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 899TSM5Z6B;
-				INFOPLIST_FILE = PlaylistCoreData/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistCoreData/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 899TSM5Z6B;
-				INFOPLIST_FILE = PlaylistCoreData/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistCoreData/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
